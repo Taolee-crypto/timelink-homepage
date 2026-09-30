@@ -17,35 +17,8 @@
   });
 
   const IR_EMAIL = "mununglee@gmail.com";
-  const form = document.getElementById("ir-form");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      const name = (form.querySelector("[name=name]") || {}).value || "";
-      const org = (form.querySelector("[name=org]") || {}).value || "";
-      const title = (form.querySelector("[name=title]") || {}).value || "";
-      const email = (form.querySelector("[name=email]") || {}).value || "";
-      const message = (form.querySelector("[name=message]") || {}).value || "";
-      const body = [
-        "TimeLink 투자 협의 문의",
-        "",
-        "이름: " + name,
-        "소속: " + org,
-        "직함: " + title,
-        "회신 이메일: " + email,
-        "",
-        message
-      ].join("\n");
-      const href =
-        "mailto:" +
-        IR_EMAIL +
-        "?subject=" +
-        encodeURIComponent("[TimeLink] 투자 협의 문의 — " + (org || name || "Investor")) +
-        "&body=" +
-        encodeURIComponent(body);
-      window.location.href = href;
-    });
-  }
+
+  // FormSubmit handles form submission; do not intercept with mailto
 
   document.querySelectorAll("[data-copy-email]").forEach(function (btn) {
     btn.addEventListener("click", function () {
