@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>투자자 — TimeLink Seed</title>
+  <title>투자자 — TimeLink Seed · IR</title>
+  <meta name="description" content="TimeLink Seed 투자 자료 및 투자 협의 문의. 대표 IR 컨택." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="assets/icons/clock.svg" type="image/svg+xml" />
@@ -25,7 +26,12 @@
       <p class="breadcrumb"><a href="index.html">홈</a><span>/</span>투자자</p>
       <h1>음악회사가 아니라, 인프라에 투자합니다</h1>
       <p class="lead">IP → Product → Users → Usage → B2B → ARR → API → Infrastructure.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#contact">투자 협의 문의</a>
+        <a class="btn btn-ghost" href="mailto:mununglee@gmail.com?subject=%5BTimeLink%5D%20%ED%88%AC%EC%9E%90%20%ED%98%91%EC%9D%98%20%EB%AC%B8%EC%9D%98">메일 바로 보내기</a>
+      </div>
     </div></div>
+
     <section><div class="container">
       <p class="section-label">Seed Round</p>
       <h2>투자 구조</h2>
@@ -36,6 +42,7 @@
       </div>
       <p class="muted mt-2" style="font-size:0.9rem;">목표 Pre-money 80억은 기술·IP·제품 기반 초기 기술기업 valuation입니다. 지분·우선주 조건은 계약 단계에서 확정됩니다.</p>
     </div></section>
+
     <section style="background:var(--bg-card); border-top:1px solid var(--border); border-bottom:1px solid var(--border);"><div class="container">
       <p class="section-label">Use of Funds</p>
       <h2>Seed ₩30억 사용 계획</h2>
@@ -53,6 +60,7 @@
         </tbody>
       </table></div>
     </div></section>
+
     <section><div class="container">
       <p class="section-label">Business Model</p>
       <h2>수익원</h2>
@@ -64,7 +72,8 @@
         <article class="card"><h3>5 Premium</h3><p>보안·워터마크·분석·고급 정책</p></article>
       </div>
     </div></section>
-    <section style="background:var(--bg-card); border-top:1px solid var(--border);"><div class="container">
+
+    <section style="background:var(--bg-card); border-top:1px solid var(--border); border-bottom:1px solid var(--border);"><div class="container">
       <p class="section-label">Financial Model</p>
       <h2>5개년 가정 (단위: 억 원)</h2>
       <p class="muted mb-1" style="font-size:0.85rem;">※ 내부 가정모델. 실적·보장이 아닙니다.</p>
@@ -79,13 +88,51 @@
           <tr><td>EBITDA</td><td>-15</td><td>-10</td><td>5</td><td>70</td><td>220</td></tr>
         </tbody>
       </table></div>
-      <div class="cta-band mt-2">
-        <h2>30억 → 80억 기술기업 → 300억+ B2B → 1,000억+ Infrastructure</h2>
-        <p>상세 사업계획서는 별도 요청 시 제공됩니다.</p>
-      </div>
     </div></section>
+
+    <section id="contact">
+      <div class="container">
+        <p class="section-label">IR Contact</p>
+        <h2>투자 협의</h2>
+        <p class="lead">사업계획서, Seed 라운드, 미팅을 원하시면 TimeLink 대표에게 직접 연락해 주세요.</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <p class="section-label" style="margin-bottom:0.35rem;">Point of Contact</p>
+            <h3>TimeLink 대표</h3>
+            <p class="muted" style="margin:0.5rem 0 1.25rem;">투자 협의 · 사업계획서 요청 · IR 미팅</p>
+            <a class="email-link" href="mailto:mununglee@gmail.com">mununglee@gmail.com</a>
+            <div class="btn-row" style="margin-top:1.25rem;">
+              <a class="btn btn-primary" href="mailto:mununglee@gmail.com?subject=%5BTimeLink%5D%20%ED%88%AC%EC%9E%90%20%ED%98%91%EC%9D%98%20%EB%AC%B8%EC%9D%98">메일 보내기</a>
+              <button class="btn btn-ghost" type="button" data-copy-email="mununglee@gmail.com">주소 복사</button>
+            </div>
+          </div>
+          <form id="ir-form" class="ir-form" action="https://formsubmit.co/mununglee@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="[TimeLink] 투자 협의 문의" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://taolee-crypto.github.io/timelink-homepage/investors.html#contact" />
+            <div class="form-row">
+              <label>이름<input name="name" required placeholder="홍길동" /></label>
+              <label>소속<input name="org" required placeholder="펀드 / 회사명" /></label>
+            </div>
+            <div class="form-row">
+              <label>직함<input name="title" placeholder="파트너 / 투자심의" /></label>
+              <label>회신 이메일<input name="email" type="email" required placeholder="you@firm.com" /></label>
+            </div>
+            <label>문의 내용<textarea name="message" required rows="5" placeholder="투자 협의, 자료 요청, 미팅 희망 등을 적어 주세요."></textarea></label>
+            <button class="btn btn-primary" type="submit">투자 협의 문의 보내기</button>
+            <p class="faint" style="font-size:0.8rem;margin-top:0.75rem;">전송 시 메일 앱이 열립니다. 대표 메일: mununglee@gmail.com</p>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="container"><div class="footer-bottom" style="border:none;padding-top:0;"><span>© TimeLink</span><a href="index.html">홈</a></div></div></footer>
+  <footer class="site-footer"><div class="container">
+    <div class="footer-bottom" style="border:none;padding-top:0;">
+      <span>© TimeLink. IR: <a href="mailto:mununglee@gmail.com">mununglee@gmail.com</a></span>
+      <a href="index.html">홈</a>
+    </div>
+  </div></footer>
   <script src="js/main.js"></script>
 </body>
 </html>
