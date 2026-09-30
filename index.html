@@ -2,10 +2,120 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>TimeLink</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TimeLink — 시간 기반 디지털 경제 & 권리보호 플랫폼</title>
+  <meta name="description" content="TimeLink는 디지털 파일에 시간 기반 사용권을 부여하고, 실제 사용시간을 측정하여 창작자 수익으로 연결하며, 플랫폼 기여를 TLC로 보상하는 디지털 권리 인프라입니다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/icons/clock.svg" type="image/svg+xml" />
 </head>
 <body>
-  <h1>TimeLink</h1>
-  <p>시간 기반 디지털 경제 및 권리보호 플랫폼</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html"><img src="assets/icons/clock.svg" alt="" /> TIME<span>LINK</span></a>
+      <button class="menu-toggle" type="button" aria-label="메뉴">☰</button>
+      <nav class="nav">
+        <a href="index.html" class="active">홈</a>
+        <a href="product.html">제품</a>
+        <a href="technology.html">기술</a>
+        <a href="economy.html">경제모델</a>
+        <a href="b2b.html">B2B</a>
+        <a href="about.html">회사</a>
+        <a href="investors.html" class="nav-cta">투자자</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-badge"><img src="assets/icons/shield.svg" alt="" width="16" height="16" /> 특허 출원 10-2025-0167813</div>
+          <h1>시간을 사고, <em>권리를 지킨다</em></h1>
+          <p class="lead">TimeLink는 디지털 파일에 시간 기반 사용권을 부여하고, 실제 사용시간을 측정해 창작자·권리자 수익으로 연결하며, 플랫폼 기여는 POC로 측정해 TLC로 보상하는 디지털 권리 인프라입니다.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="product.html">제품 살펴보기</a>
+            <a class="btn btn-ghost" href="technology.html">기술 구조</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card"><strong>TL</strong><span>콘텐츠 사용가치</span></div>
+            <div class="stat-card"><strong>TLC</strong><span>플랫폼 기여가치</span></div>
+            <div class="stat-card"><strong>POC</strong><span>기여 증명</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="flow-step"><div class="flow-num">1</div><p>디지털 파일 등록 · 암호화<small>Rights · Encryption Engine</small></p></div>
+          <div class="flow-step"><div class="flow-num">2</div><p>시간 사용권 부여<small>Time Engine</small></p></div>
+          <div class="flow-step"><div class="flow-num">3</div><p>실제 사용시간 측정<small>Usage Measurement</small></p></div>
+          <div class="flow-step"><div class="flow-num">4</div><p>권리자 자동 정산<small>Settlement</small></p></div>
+          <div class="flow-step"><div class="flow-num">5</div><p>기여 측정 · TLC 보상<small>POC</small></p></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p class="section-label">Four Economies</p>
+        <h2>하나의 플랫폼, 네 가지 경제축</h2>
+        <div class="cards">
+          <article class="card accent-green"><img class="card-icon" src="assets/icons/users.svg" alt="" /><h3>Free Economy</h3><p>무료 MP3·영상·가입으로 진입장벽을 낮추고 발견과 확산을 담당합니다.</p></article>
+          <article class="card accent-cyan"><img class="card-icon" src="assets/icons/clock.svg" alt="" /><h3>Time Economy</h3><p>유료 사용권을 시간으로 설정하고, 실제 사용시간에 따라 TL을 소비·정산합니다.</p></article>
+          <article class="card accent-magenta"><img class="card-icon" src="assets/icons/handshake.svg" alt="" /><h3>Contribution Economy</h3><p>추천·공유·큐레이션 등 기여를 POC로 측정하고 TLC로 보상합니다.</p></article>
+          <article class="card accent-gold"><img class="card-icon" src="assets/icons/shield.svg" alt="" /><h3>Rights Economy</h3><p>창작자·권리자가 사용조건을 직접 설계하고 암호화·Viewer로 권리를 관리합니다.</p></article>
+        </div>
+      </div>
+    </section>
+    <section style="background: var(--bg-card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+      <div class="container">
+        <p class="section-label">Products</p>
+        <h2>음악에서 시작해, 문서·B2B로 확장</h2>
+        <div class="cards">
+          <article class="card"><img class="card-icon" src="assets/icons/music.svg" alt="" /><h3>TL3 Music</h3><p>무료 공개로 발견 → 유료 사용권(TL3) → 사용시간 측정·정산.</p><a href="product.html#music">자세히 →</a></article>
+          <article class="card"><img class="card-icon" src="assets/icons/video.svg" alt="" /><h3>TL4 Video</h3><p>영화·강의·교육·기업 영상. 조회수가 아닌 실제 사용권과 사용량.</p><a href="product.html#video">자세히 →</a></article>
+          <article class="card"><img class="card-icon" src="assets/icons/document.svg" alt="" /><h3>TL Document</h3><p>파일을 파는 것이 아니라 사용할 권리를 판매합니다. B2B 핵심.</p><a href="product.html#document">자세히 →</a></article>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <p class="section-label">Why TimeLink</p>
+        <h2>기존 디지털 경제의 한계를 넘습니다</h2>
+        <div class="compare">
+          <div class="compare-box"><h3 class="faint">기존 방식</h3><ul><li>구매·소유</li><li>구독 — 기간 중심</li><li>광고·후원</li><li>파일 전달 후 권리 통제 어려움</li></ul></div>
+          <div class="compare-box highlight"><h3 class="text-cyan">TimeLink</h3><ul><li>시간 단위 사용권 거래</li><li>실제 사용시간 측정·차감</li><li>사용가치 → 권리자 자동 정산</li><li>기여(POC) → TLC 보상</li></ul></div>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="economy.html">경제모델 보기</a>
+          <a class="btn btn-ghost" href="b2b.html">B2B · Enterprise</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="cta-band">
+          <h2>Digital Rights Infrastructure</h2>
+          <p>IP · Product · Users · Usage · B2B · ARR · API</p>
+          <div class="btn-row" style="justify-content:center;">
+            <a class="btn btn-primary" href="about.html">회사 · 비전</a>
+            <a class="btn btn-ghost" href="investors.html">투자 자료</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html"><img src="assets/icons/clock.svg" alt="" width="24" height="24" /> TIME<span>LINK</span></a>
+          <p>시간 기반 디지털 경제 및 권리보호 플랫폼.</p>
+        </div>
+        <div class="footer-col"><h4>제품</h4><a href="product.html">포트폴리오</a><a href="product.html#music">TL3 Music</a></div>
+        <div class="footer-col"><h4>기술 · 경제</h4><a href="technology.html">핵심 엔진</a><a href="economy.html">TL · TLC · POC</a></div>
+        <div class="footer-col"><h4>회사</h4><a href="about.html">소개 · 비전</a><a href="investors.html">투자자</a></div>
+      </div>
+      <div class="footer-bottom"><span>© TimeLink. 특허 출원 10-2025-0167813</span></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
